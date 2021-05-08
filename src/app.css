@@ -1,0 +1,363 @@
+/* Navigation Bar desgin */
+.navbar-container{
+    z-index: 200;
+}
+.navbar-link{
+    text-decoration: none;
+    color: black;
+}
+.navbar-link{
+    margin:16px;
+    padding: 16px;
+}
+.navbar-option .navbar-link:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.navbar-option .active{
+    background-color: lightseagreen;
+    color: white;
+}
+.navbar-option .active:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.navbar-link-title{
+    color: lightseagreen;
+}
+.navbar{
+    box-shadow: 0.5px 0.5px 10px lightgray;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left{
+    display: flex;
+}
+.navbar-right{
+    display: flex;
+}
+.navbar-title, .navbar-option{
+    
+    font-weight: bold;
+}
+.navbar-title{
+    
+    color: lightseagreen;
+}
+
+
+/* Login-Register Form Design */
+
+.login-container,.register-container{
+    box-shadow: 1px 1px 20px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.login-container input, .register-container input{
+    border-style: solid;
+    border: none;
+    background-color: #f2f2f2;
+    width: 60%;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1em;
+}
+
+
+.login-container .login,.register-container .register{
+    padding: 1em;
+    display: block;
+    background-color: lightseagreen;
+    color: white;
+    margin-left: 16%;
+    width: 61%;
+}
+.login-container .login:hover, .register-container .register:hover{
+    cursor: pointer;
+}
+.login-container span:hover,.register-container span:hover{
+    cursor: pointer;
+}
+.login-container span, .register-container span{
+    color: lightseagreen;
+}
+.login-container .not-registered, .register-container .registerd{
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+.register-container .register-info{
+    margin:16px;
+    padding: 16px;
+}
+
+
+/* View Laptops/Phones Design */
+
+.viewlaptops-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.viewlaptops-filters{
+    flex: 1;
+    box-shadow: 10px 10px 20px #f2f2f2;
+
+    margin: 16px;
+}
+.viewlaptops-filters .filter-heading{
+    margin: 8px;
+}
+.viewlaptops-filters input{
+    width: 50%;
+    margin: 8px;
+    padding: 8px;
+}
+.viewlaptops-flipkart{
+    flex: 2;
+    box-shadow: 10px 10px 20px #f2f2f2;
+    margin: 16px;
+}
+.viewlaptops-amazon{
+    flex: 2;
+    box-shadow: 10px 10px 20px #f2f2f2;
+    margin: 16px;
+}
+.viewlaptops-filters .apply-filter{
+    width: 50%;
+    margin: 8px;
+    padding: 8px;
+    background-color: lightseagreen;
+    color: white;
+}
+.viewlaptops-filters .apply-filter:hover{
+    cursor: pointer;
+}
+.separator{
+    color: rgba(242, 242, 242, 0.3);
+    text-align: center;
+    margin: 8px;
+}
+/* .viewlaptops-result{
+    display: flex;
+    justify-content: flex-start;
+} */
+.result-name,.result-price,.result-cart,.result-detail{
+    margin: 8px;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 8px;
+    font-size: 1.1em;
+}
+.result-name{
+    font-weight: bold;
+}
+.result-cart{
+    background-color: lightseagreen;
+    color: white;
+    width: 20%;
+    margin-top: 16px;
+}
+.result-cart:hover{
+    background-color: #26d9d0;
+}
+.result-detail:hover{
+    background-color: #47d147;
+}
+.result-detail{
+    margin-top: 16px;
+    width: 20%;
+    color: white;
+    
+    background-color: #2eb82e;
+}
+.result-cart:hover,.result-detail:hover{
+    cursor: pointer;
+}
+.result-price{
+    color: #e60000;
+}
+.viewlaptops-vendor-title{
+    margin-left: 8px;
+}
+
+/* Show Details Design */
+.showdetails-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.showdetails-info{
+    font-size: 1.2em;
+}
+
+/* View Cart design */
+.viewcart-detail{
+    background-color: lightseagreen;
+    padding: 8px;
+    color: white;
+    width: 20%;
+
+}
+.viewcart-container{
+    display: flex;
+    justify-content: space-between;
+}
+.viewcart-detail:hover{
+    cursor: pointer;
+}
+.viewcart-laptop,.viewcart-phone{
+    flex: 1;
+    margin:16px;
+    box-shadow: 1px 1px 10px #f1f1f1;
+    padding: 16px;
+}
+.viewcart-item{
+    font-size: 1.2em;
+}
+.viewcart-delete{
+    background-color: #ff4d4d;
+    padding: 8px;
+    color: white;
+    width: 20%;
+}
+.viewcart-delete:hover{
+    cursor: pointer;
+}
+/* Home page design */
+
+.home-title-item2{
+    background-color: #f2f2f2;
+}
+.home-container img{
+    width: 500px;
+    height: 300px;
+}
+.home-title-item1,.home-title-item2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-container img{
+    padding: 16px;
+}
+.home-final{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 60%;
+    margin:0 auto;
+}
+
+
+/* Spinner design */
+.lds-roller {
+    display: inline-block;
+    position: absolute;
+    top: 45vh;
+    z-index: 200;
+    left: 47%;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: lightseagreen;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Backdrop design */
+  .backdrop{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.75);
+  }
+  
